@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saved_wallpapers",
+  "info": {
+    "singularName": "saved-wallpaper",
+    "pluralName": "saved-wallpapers",
+    "displayName": "SavedWallpaper",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    }
+  }
+}
