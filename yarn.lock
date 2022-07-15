@@ -1697,7 +1697,7 @@
     "@strapi/utils" "4.2.3"
     lodash "4.17.21"
 
-"@strapi/plugin-upload@4.2.3":
+"@strapi/plugin-upload@4.2.3", "@strapi/plugin-upload@^4.2.3":
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-upload/-/plugin-upload-4.2.3.tgz#a45d430cf3211104ab446368c8446f8c0f347130"
   integrity sha512-li2dGxQf8Uiv40ZibwtXdUAmuHysjzB382S79PCOamQH47Kj3youBmAIKfJY2m+uQ59ZcnrG4r7dX7ib6/nOJg==
