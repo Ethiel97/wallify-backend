@@ -10,7 +10,7 @@ module.exports = ({ env }) => ({
       password: env('DB_PASSWORD', ''),
       ssl: env.bool('DB_SSL', false),
       options: '--cluster=brave-entity-2863',
-        // cluster: 'brave-entity-2863'
+      // cluster: 'brave-entity-2863'
     },
   },
 });
