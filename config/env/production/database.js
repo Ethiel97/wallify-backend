@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
       database: env('DB_NAME', 'wallinice'),
       user: env('DB_USERNAME', 'root'),
       password: env('DB_PASSWORD', ''),
-      ssl: env.bool('DB_SSL', false),
+      ssl: env.bool('DB_SSL', true),
       options: '--cluster=brave-entity-2863',
       // cluster: 'brave-entity-2863'
     },
