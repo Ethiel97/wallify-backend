@@ -41,7 +41,7 @@ module.exports = createCoreController('api::saved-wallpaper.saved-wallpaper', ({
     const {uid} = ctx.request.params
     const {id, username} = ctx.state.user;
 
-    const uidToFind = `${uid}:${id}:${username}}`
+    const uidToFind = `${uid}:${id}:${username}`
     const entity = await strapi.db.query('api::saved-wallpaper.saved-wallpaper').findOne({
       where: {
         uid: uidToFind
@@ -56,7 +56,7 @@ module.exports = createCoreController('api::saved-wallpaper.saved-wallpaper', ({
     const {uid} = ctx.request.params
     const {id, username} = ctx.state.user;
 
-    const uidToDelete = `${uid}:${id}:${username}}`
+    const uidToDelete = `${uid}:${id}:${username}`
 
     const entity = await strapi.db.query('api::saved-wallpaper.saved-wallpaper').delete({
       where: {uid: uidToDelete}
